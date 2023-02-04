@@ -1,13 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+   font-family: 'Poppins', sans-serif;
+}
 
 body {
    line-height: 1.8;
    color: #898fa1;
    font-size: 15px;
-   font-family: 'Lato', sans-serif;
+   /* font-family: 'Lato', sans-serif; */
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
    font-weight: 700;
    letter-spacing: 1px;
    text-transform: uppercase;
@@ -50,24 +59,27 @@ section {
    text-transform: uppercase;
    color: #7C117B !important;
 }
+
 .navbar .nav-link {
    font-size: 12px;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
- 
+
 .navbar-light .navbar-nav .nav-link.active {
    color: #000000;
 }
 
 #home {
-   background: linear-gradient(rgba(88, 17, 90, 0.4), rgba(88, 17, 90, 0.4)), url(../img/Mohatta_Palace-2.jpeg);
+   background: linear-gradient(rgba(47, 0, 255, 0), rgba(247, 0, 255, 0.151)), url(../img/Mohatta_Palace-2.png);
    min-height: 100vh;
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
    display: flex;
    align-items: center;
+   /* opacity: 0.8; */
+   /* filter: blur(1px); */
 }
 
 #home h1 {
@@ -88,7 +100,7 @@ section {
 }
 
 .btn-brand {
-   background-color: #7C117B ;
+   background-color: #7C117B;
    color: #fff;
 }
 
@@ -111,7 +123,7 @@ section {
    margin: 16px auto 0 auto;
 }
 
- 
+
 .icon-box {
    width: 60px;
    height: 60px;
@@ -133,10 +145,11 @@ section {
    overflow: hidden;
    position: relative;
 }
- .portfolio-item img,
- .portfolio-item .portfolio-overlay {
-    transition: all 0.4s ease;
- }
+
+.portfolio-item img,
+.portfolio-item .portfolio-overlay {
+   transition: all 0.4s ease;
+}
 
 .portfolio-overlay {
    position: absolute;
@@ -172,6 +185,7 @@ section {
    border-radius: 100px;
    font-size: 24px;
 }
+
 /*
 .team-member {
    background-color: #11245A;
@@ -282,11 +296,11 @@ form .form-control {
 
 form .form-control:focus {
    box-shadow: none;
-   border-color:  #7C117B;
+   border-color: #7C117B;
 }
 
 #cta {
-   background-color:  #7C117B;
+   background-color: #7C117B;
 }
 
 /* footer */
@@ -318,6 +332,5 @@ footer .footer-links a {
 
 footer .social-icons a:hover,
 footer .footer-links a:hover {
-   color:  #7C117B;
-} 
-
+   color: #7C117B;
+}
