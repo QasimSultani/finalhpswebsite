@@ -8,7 +8,7 @@ body {
    line-height: 1.8;
    color: #898fa1;
    font-size: 15px;
-   /* font-family: 'Lato', sans-serif; */
+ 
 }
 
 h1,
@@ -78,8 +78,7 @@ section {
    background-attachment: fixed;
    display: flex;
    align-items: center;
-   /* opacity: 0.8; */
-   /* filter: blur(1px); */
+ 
 }
 
 #home h1 {
@@ -186,73 +185,6 @@ section {
    font-size: 24px;
 }
 
-/*
-.team-member {
-   background-color: #11245A;
-}
-
-.team-member.even {
-   background-color: #162e6e;
-}
-
-.team-member .hline {
-   width: 70px;
-   height: 2px;
-   margin: 16px auto;
-   background-color: rgba(255, 255, 255, 0.445);
-}
-
-.team-member .team-member-img img,
-.team-member .team-member-img .social-icons {
-   transition: all 0.4s ease;
-}
-
-.team-member .team-member-img {
-   position: relative;
-   overflow: hidden;
-}
-
-.team-member .team-member-img .social-icons {
-   width: 100%;
-   height: 60px;
-   background-color: #E93B81;
-   position: absolute;
-   bottom: -60px;
-   left: 0;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-
-}
-
-.team-member .team-member-img .social-icons a {
-   width: 40px;
-   height: 40px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   border: 2px solid rgba(255, 255, 255, 0.5);
-   font-size: 24px;
-   color: #fff;
-   border-radius: 100px;
-   margin-left: 4px;
-   margin-right: 4px;
-}
-
-.team-member .team-member-img .social-icons a:hover {
-   background-color: #fff;
-   color: #E93B81;
-}
-
-.team-member:hover .team-member-img .social-icons {
-   bottom: 0;
-}
-
-.team-member:hover img {
-   transform: translateY(-60px);
-}
-
-*/
 
 /* testimonials */
 
@@ -282,10 +214,6 @@ section {
    font-style: italic;
 }
 
-
-/* #clients img {
-   height: 35px;
-} */
 
 
 
